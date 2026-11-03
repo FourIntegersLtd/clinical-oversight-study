@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "clinical-oversight-study"
+version = "0.1.0"
+description = "Do AI judges catch plausible but unsafe medical advice? A pre-registered test with planted errors."
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+anthropic = "*"
+openai = "*"
+pyyaml = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
