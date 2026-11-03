@@ -36,3 +36,9 @@ Any change to the method after `PREREGISTRATION.md` was first committed, with th
 **What changed.** Version 2 said "40, plus up to 40 more only if fully checked before the freeze". The target is now 80: the 40 existing questions plus 40 new ones, drafted by the GP or Gemini and checked to the same standard. The freeze rule still allows stopping at a lower balanced N if the new questions cannot all be checked in time, never below 40. At 80 questions the full run is 20,160 calls.
 
 **Why.** The author always intended 80; version 2 wrongly made 40 the default. More questions narrow the intervals on C1 to C3, which version 2 already noted would be wide at 40.
+
+## 2026-11-03: the pilot is replaced by a two-question test run, before any data
+
+**What changed.** The 672-call pilot on q01 to q08 is replaced by a 168-call test run on q01 and q02. It checks only model access and parsing; no verdict is scored. The rules for replacing a model or fixing a prompt are unchanged. q01 to q08 can no longer be left out of C1 to C3.
+
+**Why.** Cost is not a constraint, so the cost estimate is not needed. Scoring pilot accuracy is what made it necessary to drop q01 to q08 from the main comparisons if anything changed; a test run that never scores verdicts avoids that and keeps every question in the analysis.

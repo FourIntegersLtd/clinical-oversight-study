@@ -1,6 +1,6 @@
 # GP check: one pass over every item
 
-These items are drafts. Your check is what makes them ground truth. Set aside about 3 to 4 hours (5 minutes per question). Do this before the full run; the pilot can run on unchecked items.
+These items are drafts. Your check is what makes them ground truth. Set aside about 3 to 4 hours (5 minutes per question). Do this before the full run; the test run can use unchecked items.
 
 For each question in `items/`:
 
