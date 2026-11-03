@@ -28,3 +28,11 @@ Any change to the method after `PREREGISTRATION.md` was first committed, with th
 - **Three outside reviews** of the design, all made before any data, recommended asking whether interventions help, separating Opus's verdict from its critique, adding a reference checklist to explain misses, and trading repeats for questions. With 40 questions the intervals would be wide, and 10 repeats measure consistency without adding questions.
 - **The new question is the one behind the original incident.** The author's personal clinical question tool, where the jaundice error happened, was changed to list rules before judging and to have one model check another. Version 2 tests those changes.
 - **GPT-6.1 Sol replaces GPT-5.5** because it is OpenAI's current model in the same position, and there is no reason to study the older generation. GPT-5.5 (`gpt-5.5-2026-04-23`) is used only if access to GPT-6.1 Sol fails before the pilot.
+
+## 2026-11-03: the target is 80 questions, before any data
+
+**When.** After version 2 was committed (`33e1af4`) and before any pilot or full-run call.
+
+**What changed.** Version 2 said "40, plus up to 40 more only if fully checked before the freeze". The target is now 80: the 40 existing questions plus 40 new ones, drafted by the GP or Gemini and checked to the same standard. The freeze rule still allows stopping at a lower balanced N if the new questions cannot all be checked in time, never below 40. At 80 questions the full run is 20,160 calls.
+
+**Why.** The author always intended 80; version 2 wrongly made 40 the default. More questions narrow the intervals on C1 to C3, which version 2 already noted would be wide at 40.
