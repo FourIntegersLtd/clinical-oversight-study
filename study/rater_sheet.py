@@ -1,4 +1,4 @@
-"""Write the blind sheet for the second rater: 30 answers, no labels, no error types.
+"""Write the blind sheet for the second rater: 60 answers, no labels, no error types.
 
 Run after the items are checked and frozen. Send only review/rater2_sheet.csv to the colleague.
 """
@@ -11,7 +11,7 @@ OUT = Path(__file__).resolve().parent.parent / "review" / "rater2_sheet.csv"
 
 
 def main():
-    sample = items_mod.rater_sample(items_mod.load())
+    sample = items_mod.rater_sample_full(items_mod.load())
     with OUT.open("w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["item", "question", "answer", "verdict", "reason"])
