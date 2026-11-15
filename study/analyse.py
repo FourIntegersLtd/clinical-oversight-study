@@ -3,6 +3,9 @@
     python -m study.analyse                              # results/full.jsonl -> results/summary.md
     python -m study.analyse results/pilot.jsonl --estimate   # cost of the full run, from the pilot
 """
+raise SystemExit("study/analyse.py still reads the version 1 results format. Rebuild it for version 2 "
+                 "(PREREGISTRATION.md, Outcomes and Analysis) before analysing the full run.")
+
 import argparse
 import csv
 import json
