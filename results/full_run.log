@@ -1,0 +1,72 @@
+48 questions, 14688 calls planned, 0 already done, 14688 to run -> full.jsonl
+Round 1: sent 6912 calls to anthropic as batch msgbatch_01Qot9BuHn8eLpEDWhKe8yRt
+The openai batch was not accepted: BadRequestError: Error code: 400 - Billing hard limit has been reached
+Waiting for anthropic (0 minutes so far; safe to stop and run the same command again later)
+anthropic batch msgbatch_01Qot9BuHn8eLpEDWhKe8yRt ended: 6912 usable replies out of 6912
+Not sending to openai again: its last batch gave nothing usable (see results/errors.log).
+Round 2: sent 3456 calls to anthropic as batch msgbatch_01Xk3jGH171xDtZE64Dgzx5D
+Waiting for anthropic (0 minutes so far; safe to stop and run the same command again later)
+anthropic batch msgbatch_01Xk3jGH171xDtZE64Dgzx5D ended: 3456 usable replies out of 3456
+Not sending to openai again: its last batch gave nothing usable (see results/errors.log).
+Finished: 10368 written, 0 failed, 4320 still to run.
+Run the same command again to retry (see results/errors.log).
+attempt 1 exit=0 left=4320
+48 questions, 14688 calls planned, 10368 already done, 4320 to run -> full.jsonl
+Round 3: sent 3456 calls to openai as batch batch_6afa39baf598819097b28c361a6733ec
+Waiting for openai (0 minutes so far; safe to stop and run the same command again later)
+Waiting for openai (10 minutes so far; safe to stop and run the same command again later)
+Waiting for openai (20 minutes so far; safe to stop and run the same command again later)
+openai batch batch_6afa39baf598819097b28c361a6733ec ended: 3456 usable replies out of 3456
+Round 4: sent 864 calls to openai as batch batch_6afa3f2d7cc48190a12b446eb376827a
+Waiting for openai (0 minutes so far; safe to stop and run the same command again later)
+Waiting for openai (10 minutes so far; safe to stop and run the same command again later)
+Waiting for openai (20 minutes so far; safe to stop and run the same command again later)
+Waiting for openai (30 minutes so far; safe to stop and run the same command again later)
+openai batch batch_6afa3f2d7cc48190a12b446eb376827a ended: 864 usable replies out of 864
+Finished: 4320 written, 0 failed, 0 still to run.
+attempt 1 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 2 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 3 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 4 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 5 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 6 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 7 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 8 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 9 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 10 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 11 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 12 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 13 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 14 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 15 exit=0 left=0
+48 questions, 14688 calls planned, 14688 already done, 0 to run -> full.jsonl
+Finished: 0 written, 0 failed, 0 still to run.
+attempt 16 exit=0 left=0
