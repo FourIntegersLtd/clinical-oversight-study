@@ -1,0 +1,4 @@
+2026-11-15T20:35:00.329210 gpt|facts_check|no_guidance|c880db120e|0 {"error": {"message": "You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.", "type": "insufficient_quota", "param": null, "code": "credit_balance_exhausted"}}
+2026-11-15T20:35:00.329390 gpt|facts_check|no_guidance|9352ff3227|0 {"error": {"message": "You have no credits remaining. Add credits to continue using the API at https://platform.openai.com/settings/organization/billing/.", "type": "insufficient_quota", "param": null, "code": "credit_balance_exhausted"}}
+2026-11-15T20:35:01.569310 - openai batch not accepted: BadRequestError: Error code: 400 - Billing hard limit has been reached
+2026-11-15T20:36:37.195849 - openai batch not accepted: BadRequestError: Error code: 400 - Billing hard limit has been reached

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "clinical-oversight-study"
 version = "0.1.0"
-description = "Do AI judges catch plausible but unsafe medical advice? A pre-registered test with planted errors."
+description = "Do structure, guidance or a stronger model's notes help small AI checkers catch planted errors in medical advice?"
 package-mode = false
 
 [tool.poetry.dependencies]
