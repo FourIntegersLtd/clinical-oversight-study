@@ -1,4 +1,4 @@
-"""Builds paper/report.pdf from REPORT.md: Markdown to HTML with the `markdown` package, then
+"""Builds paper/helping-a-weak-ai-checker.pdf from REPORT.md: Markdown to HTML with the `markdown` package, then
 Chrome's print-to-PDF. Set CHROME to the browser's path if it is not in the usual place.
 
     poetry run python paper/build_pdf.py
@@ -60,7 +60,7 @@ def main():
     title = text.splitlines()[0].lstrip("# ").strip()
     html = (f"<!doctype html><html lang='en'><head><meta charset='utf-8'><base href='{ROOT.as_uri()}/'>"
             f"<title>{title}</title><style>{CSS}</style></head><body>{body}</body></html>")
-    out = ROOT / "paper" / "report.pdf"
+    out = ROOT / "paper" / "helping-a-weak-ai-checker.pdf"
     with tempfile.TemporaryDirectory() as tmp:
         page = Path(tmp) / "report.html"
         page.write_text(html)
